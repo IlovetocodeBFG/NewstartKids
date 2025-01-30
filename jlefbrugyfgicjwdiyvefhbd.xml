@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="BFG"/>
+<Content type="html"><![CDATA[
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unblocked Games</title>
+
+    <!-- Add the Boogaloo font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #1e1e1e;
+            font-family: 'Boogaloo', cursive;
+            color: #f5f5f5;
+        }
+
+        h1.title {
+            text-align: center;
+            color: #1abc9c;
+            font-size: 50px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .category-banner {
+            background-color: #16a085;
+            color: #fff;
+            padding: 12px;
+            text-align: center;
+            width: 80%;
+            margin: 0 auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .info, .description, .credit {
+            text-align: center;
+            font-size: 1.2em;
+            margin: 20px auto;
+            max-width: 900px;
+        }
+
+        .description {
+            font-style: italic;
+            color: #bdc3c7;
+        }
+
+        .credit {
+            color: #95a5a6;
+            margin-top: 40px;
+        }
+
+        .image-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 20px;
+            padding: 20px 0;
+        }
+
+        .image-container img {
+            border-radius: 12px;
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+        }
+
+        .image-container img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        #games {
+            width: 85%;
+            margin: 80px auto 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            padding: 20px;
+        }
+
+        #games a {
+            width: calc(25% - 1.5rem);
+            aspect-ratio: 1;
+            border-radius: 1vw;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            display: block;
+            position: relative;
+            background: #2a2a2a;
+        }
+
+        #games a:hover {
+            cursor: pointer;
+            transform: rotate(-5deg) scale(1.1);
+        }
+
+        #games img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Footer styles */
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+            background-color: #ffffff;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .copyright {
+            color: #64748b;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .copyright i {
+            color: #1a56db;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .main-content {
+                margin: 2rem auto;
+                padding: 0 1rem;
+            }
+
+            .title {
+                font-size: 2.5rem;
+                padding: 0.25rem 0;
+                margin-bottom: 1rem;
+            }
+
+            .subtitle {
+                font-size: 1.1rem;
+            }
+
+            .category-banner {
+                width: 90%;
+            }
+
+            .image-container {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            }
+
+            h1.title {
+                font-size: 36px;
+            }
+
+            .info, .description {
+                font-size: 1em;
+                padding: 0 20px;
+            }
+
+            #games {
+                width: 90%;
+                gap: 1rem;
+            }
+
+            #games a {
+                width: calc(33.33% - 0.67rem);
+            }
+        }
+
+        @media (max-width: 480px) {
+            #games a {
+                width: calc(50% - 0.5rem);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        <h1 class="title">Main Games</h1>
+
+        <div class="category-banner">
+            Unblocked Games
+        </div>
+
+        <div class="info">
+            Get some great game sites, by PulseCodes and Bigfishgaming<br><br>
+            New Update: Alot Of New Games Added! Also Rework on Classroom gg Enjoy :)
+        </div>
+
+        <div class="description">
+            The password for "BigFishGaming" is <strong>bfg</strong> (all lowercase).
+        </div>
+
+        <div class="credit">
+            Developed by Pulsecodes & BigFishGaming
+        </div>
+
+        <div id="games">
+            <a data-url="https://classroomuk.b-cdn.net/">
+                <img src="https://i.ibb.co/fYrx84P/image.png" alt="Classroom UK" title="Classroom UK">
+            </a>
+
+            <a data-url="https://classroomgg.b-cdn.net/images.html">
+                <img src="https://i.ibb.co/nk3RS10/logo.png" alt="Classroom GG" title="Classroom GG">
+            </a>
+
+            <a data-url="https://games.zya.me/games12.html">
+              <img src="https://i.ibb.co/XLW6VNN/Screenshot-5.png" alt="StudyLms2.0" title="StudyLms2.0">
+            </a>
+
+            <a data-url="https://existence.b-cdn.net/games.html">
+              <img src="https://i.ibb.co/6XHZN7h/4249-EBB0-1706-43-AB-BD64-B52-E89027-CCA.png" alt="Project Existence" title="Project Existence">
+            </a>
+
+            <a data-url="https://aeg.zya.me/GG3.html">
+              <img src="https://i.ibb.co/zJXRbM7/C527956-B-C3-F8-477-A-B721-71-B664-A5-F646.png" alt="AE Games" title="AE Games">
+            </a>
+
+            <a data-url="https://bigfishgaming-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/bigfishgaming/bigfishgaming@refs/heads/main/nobonenowanyboneysome.xml&amp;container=ig">
+                <img src="https://static.wixstatic.com/media/1492ca_9d65e98bce464bb49d171dcf9f586c7f~mv2.jpeg" alt="Big Fish Gaming" title="Big Fish Gaming">
+            </a>
+
+            <a data-url="https://www.mathisyum.us.kg/games.html">
+                <img src="https://i.ibb.co/23q1PXd/8-B5-A0588-60-EA-4496-992-B-BCE7556-AA196.png" alt="V8R" title="V8R">
+            </a>
+        </div>
+    </div>
+
+    <footer class="footer">
+      <footer style="background-color: #333; color: #fff; text-align: center; padding: 20px;">
+        <div class="copyright">
+            <p>&copy; 2025 BFG Games. All rights reserved.</p>
+            <p>Unauthorized use or reproduction of this content is strictly prohibited and may result in legal action.</p>
+            <p>By copying this code, you Agree To Be A D1 BUM,Loser And BigFishGaming's SLAVE.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('#games a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const url = this.getAttribute('data-url');
+                const win = window.open('about:blank', '_blank');
+                win.document.write(`
+                    <html>
+                        <head>
+                            <title>Clever</title>
+                        </head>
+                        <body style="margin:0;">
+                            <iframe src="${url}" style="border:none; width:100%; height:100%; position:fixed; top:0; left:0;"></iframe>
+                        </body>
+                    </html>
+                `);
+                win.document.close();
+            });
+        });
+    </script>
+</body>
+</html>
+    ]]></Content>
+</Module>
