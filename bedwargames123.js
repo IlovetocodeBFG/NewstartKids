@@ -1,6 +1,6 @@
 
       document.addEventListener('DOMContentLoaded', function() {
-    fetch('https://cdn.jsdelivr.net/gh/IlovetocodeBFG/BIGFISHGAMING@refs/heads/main/gamelist.txt')
+    fetch('https://cdn.jsdelivr.net/gh/IlovetocodeBFG/NewstartKids@refs/heads/main/google-groups/gamelissst.txt')
         .then(response => response.text())
         .then(data => {
             const gameGrid = document.getElementById('games');
